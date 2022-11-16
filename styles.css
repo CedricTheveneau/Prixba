@@ -2,6 +2,70 @@
   font-family: "Montserrat", sans-serif;
 }
 
+header {
+  height: fit-content;
+  background-color: #e5e5e5;
+}
+
+.slogan {
+  font-size: 22px;
+}
+
+.sentence {
+  font-size: 14px;
+}
+
+.bubbledNumber {
+  background-color: #ea5455;
+  color: #e5e5e5;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.headerTwo .bubbledNumber {
+  background-color: #e5e5e5;
+  color: #ea5455;
+  width: 20px;
+  height: 20px;
+  font-size: smaller;
+}
+
+.headerTwo {
+  height: fit-content;
+  background-color: #2d4059;
+}
+
+.navigation .btn {
+  font-weight: bold;
+  background-color: #ea5455;
+  color: #e5e5e5;
+}
+
+.navigation .btn:nth-child(1) {
+  color: #2d4059;
+  background-color: #e5e5e5;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav .btn {
+  color: #e5e5e5;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+nav ul a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 /*Page Listing Product*/
 .filter1 {
   display: block;
