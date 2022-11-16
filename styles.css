@@ -1,3 +1,81 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+/*Page Listing Product*/
+.filter1 {
+  display: block;
+}
+
+.filter2 {
+  display: block;
+}
+
+.filter3 {
+  width: 100%;
+}
+
+.filter4 {
+  width: auto !important;
+  font-size: 20px;
+  background-color: #EA5455 !important;
+  color: white !important;
+  font-weight: 200 !important;
+}
+
+.category {
+  padding-right: 0;
+  font-size: 20px;
+}
+
+.icon-category {
+  font-size: 18px;
+  padding-right: 6%;
+}
+
+.title-category {
+  font-size: 25px;
+}
+
+.title-filter3 {
+  font-size: 18px;
+}
+
+.img-all-items {
+  padding: 35px;
+}
+
+.img-frst-items {
+  width: 100% !important;
+  padding: 35px;
+}
+
+.card-first-items {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .filter1 {
+    display: flex;
+  }
+
+  .filter2 {
+    display: flex;
+  }
+
+  .category {
+    padding-right: 10%;
+  }
+
+  .img-frst-items {
+    width: 32% !important;
+  }
+
+  .card-first-items {
+    text-align: initial;
+  }
+
+  .card-first {
+    margin-bottom: 6%;
+  }
+}
