@@ -1,3 +1,12 @@
-* {
-  font-family: "Montserrat", sans-serif;
+h3{
+  color: #ea5455;
+}
+.link{
+  text-decoration: none;
+  padding:10px;
+}
+.col-2{
+  background-color: #2D4059;
+  border-radius: 5%;
+  display: flex;
 }
