@@ -1,5 +1,5 @@
-* {
-  font-family: "Montserrat", sans-serif;
+h3 {
+  color: #ea5455;
 }
 /*Header*/
 header {
@@ -86,7 +86,7 @@ nav ul a:hover {
 .filter4 {
   width: auto !important;
   font-size: 20px;
-  background-color: #EA5455 !important;
+  background-color: #ea5455 !important;
   color: white !important;
   font-weight: 200 !important;
   font-size: 16px !important;
@@ -118,7 +118,7 @@ nav ul a:hover {
   box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
   border-radius: 6px !important;
   transform: rotate(-0.33deg);
-  background: #FCFCFC;
+  background: #fcfcfc;
   border: 0 !important;
   padding: 35px !important;
   margin-bottom: 2rem;
@@ -148,8 +148,8 @@ nav ul a:hover {
   border: 5px solid #727272 !important;
 }
 
-.form-check-input:checked[type=radio] {
-  background: #EA5455 !important;
+.form-check-input:checked[type="radio"] {
+  background: #ea5455 !important;
   border-color: transparent;
   box-shadow: none;
   border: none !important;
@@ -160,12 +160,12 @@ nav ul a:hover {
   box-shadow: none !important;
 }
 
-.form-check .form-check-input:checked[type=radio] + .form-check-label {
-  color: #EA5455 !important;
+.form-check .form-check-input:checked[type="radio"] + .form-check-label {
+  color: #ea5455 !important;
 }
 
 .text-success-stock {
-  color: #42CC58;
+  color: #42cc58;
 }
 
 @media screen and (min-width: 768px) {
@@ -191,5 +191,15 @@ nav ul a:hover {
 
   .card-first {
     margin-bottom: 6%;
+  }
+
+  .link {
+    text-decoration: none;
+    padding: 10px;
+  }
+  .col-2 {
+    background-color: #2d4059;
+    border-radius: 5%;
+    display: flex;
   }
 }
