@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 h3 {
   color: #ea5455;
 }
@@ -62,6 +63,14 @@ nav ul a {
 }
 
 nav ul a:hover {
+=======
+/* Général */
+h3{
+  color: #ea5455;
+}
+
+.link{
+>>>>>>> Stashed changes
   text-decoration: none;
   color: black;
 }
