@@ -117,8 +117,8 @@
         <section class="container container-listing">
             <div class="filter1">
                 <div class="category">
-                    <div class="d-flex align-items-center">
-                        <div class="container-icon1">
+                    <div class="pb-2 d-flex align-items-center">
+                        <div class="d-flex container-icon1">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -171,78 +171,96 @@
                     </div>
                 </div>
                 <div>
-                    <div class="filter2 align-items-center container">
+                    <div class="filter2 align-items-center">
                         <div class="d-flex filter3">
                             <h3 class="title-filter3">Affichage :</h3>
-                            <div class="container-icon2">
-                                <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.80742" y="1.70609" width="14" height="13" transform="rotate(-0.325605 1.80742 1.70609)" stroke="black" stroke-width="2"/>
-                                <rect x="1.90948" y="19.7058" width="14" height="13" transform="rotate(-0.325605 1.90948 19.7058)" stroke="black" stroke-width="2"/>
-                                <rect x="20.8069" y="1.59806" width="14" height="13" transform="rotate(-0.325605 20.8069 1.59806)" stroke="black" stroke-width="2"/>
-                                <rect x="20.9095" y="19.5978" width="14" height="13" transform="rotate(-0.325605 20.9095 19.5978)" stroke="black" stroke-width="2"/>
-                                </svg>
-                            </div>
-                            <div class="container-icon2">
-                                <svg width="37" height="34" viewBox="0 0 37 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.80645" y="1.38224" width="34" height="13" transform="rotate(-0.325605 1.80645 1.38224)" stroke="black" stroke-width="2"/>
-                                <rect x="1.9085" y="19.382" width="34" height="13" transform="rotate(-0.325605 1.9085 19.382)" stroke="black" stroke-width="2"/>
-                                </svg>
-                            </div>
+                            <a href="#">
+                                <div class="container-icon2">
+                                    <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.80742" y="1.70609" width="14" height="13" transform="rotate(-0.325605 1.80742 1.70609)" stroke="black" stroke-width="2"/>
+                                    <rect x="1.90948" y="19.7058" width="14" height="13" transform="rotate(-0.325605 1.90948 19.7058)" stroke="black" stroke-width="2"/>
+                                    <rect x="20.8069" y="1.59806" width="14" height="13" transform="rotate(-0.325605 20.8069 1.59806)" stroke="black" stroke-width="2"/>
+                                    <rect x="20.9095" y="19.5978" width="14" height="13" transform="rotate(-0.325605 20.9095 19.5978)" stroke="black" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="container-icon2">
+                                    <svg width="37" height="34" viewBox="0 0 37 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.80645" y="1.38224" width="34" height="13" transform="rotate(-0.325605 1.80645 1.38224)" stroke="black" stroke-width="2"/>
+                                    <rect x="1.9085" y="19.382" width="34" height="13" transform="rotate(-0.325605 1.9085 19.382)" stroke="black" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                            </a>
                         </div>
                         <select class="filter4 form-select form-select-lg mb-3" >
                             <option selected>Tier les résultats</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option value="1">En Stock</option>
+                            <option value="2">Epuisé</option>
+                            <option value="3">Favoris</option>
                         </select>
                     </div>
-                    <div class="container text-center mt-5">
+                    <div class="text-center mt-5">
                         <div class="row justify-content-md-center card-first">
-                            <div class="col-12">
-                                <div class="card d-flex flex-md-row card-container">
-                                    <img src="../assets/img/bricolage_marteau.png" class="card-img-top img-frst-items"
-                                        alt="marteau" />
-                                    <div class="card-body card-first-items">
-                                        <h5 class="card-title">Marteau</h5>
-                                        <p class="card-text">PRIX</p>
-                                        <p class="card-text text-success-stock">En stock</p>
+                            <a class="link-product" href="product.html">
+                                <div class="col-md-12">
+                                    <div class="card d-flex flex-md-row card-container">
+                                        <img src="../assets/img/bricolage_marteau.png" class="card-img-top img-frst-items"
+                                            alt="marteau" />
+                                        <div class="card-body card-first-items">
+                                            <h5 class="card-first-title">Marteau</h5>
+                                            <p class="card-text">PRIX</p>
+                                            <p class="card-text text-success-stock">En stock</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="row">
+                        <div class="row">                           
                             <div class="col-md">
-                                <div class="card card-container">
-                                    <img src="../assets/img/bricolage_marteau.png" class="card-img-top img-all-items"
-                                        alt="marteau" />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Marteau</h5>
-                                        <p class="card-text">PRIX</p>
-                                        <p class="card-text text-success-stock">En stock</p>
+                                <a class="link-product" href="product.html"></a>
+                                    <div class="card card-container">
+                                        <img src="../assets/img/bricolage_marteau.png" class="card-img-top img-all-items"
+                                            alt="marteau" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Marteau</h5>
+                                            <div class="price-and-status">
+                                                <p class="card-text">PRIX</p>
+                                                <p class="card-text text-success-stock">En stock</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md">
-                                <div class="card card-container">
-                                    <img src="../assets/img/bricolage_marteau.png" class="card-img-top img-all-items"
-                                        alt="marteau" />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Marteau</h5>
-                                        <p class="card-text">PRIX</p>
-                                        <p class="card-text text-success-stock">En stock</p>
+                                <a class="link-product" href="product.html">
+                                    <div class="card card-container">
+                                        <img src="../assets/img/bricolage_marteau.png" class="card-img-top img-all-items"
+                                            alt="marteau" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Marteau</h5>
+                                            <div class="price-and-status">
+                                                <p class="card-text">PRIX</p>
+                                                <p class="card-text text-success-stock">En stock</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md">
-                                <div class="card card-container">
-                                    <img src="../assets/img/bricolage_marteau.png" class="card-img-top img-all-items"
-                                        alt="marteau" />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Marteau</h5>
-                                        <p class="card-text">PRIX</p>
-                                        <p class="card-text text-success-stock">En stock</p>
+                                <a class="link-product" href="product.html">
+                                    <div class="card card-container">
+                                        <img src="../assets/img/bricolage_marteau.png" class="card-img-top img-all-items"
+                                            alt="marteau" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Marteau</h5>
+                                            <div class="price-and-status">
+                                                <p class="card-text">PRIX</p>
+                                                <p class="card-text text-success-stock">En stock</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>

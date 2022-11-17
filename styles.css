@@ -77,10 +77,12 @@ nav ul a:hover {
 
 .filter2 {
   display: block;
+  margin: 5% 0;
 }
 
 .filter3 {
   width: 100%;
+  margin-bottom: 5%;
 }
 
 .filter4 {
@@ -112,6 +114,7 @@ nav ul a:hover {
 .title-filter3 {
   font-size: 18px;
   font-weight: 400;
+  color: #000000;
 }
 
 .card-container {
@@ -168,25 +171,40 @@ nav ul a:hover {
   color: #42cc58;
 }
 
-@media screen and (min-width: 768px) {
+.price-and-status {
+  display: block;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.link-product {
+  text-decoration: none;
+  color: #2D4059;
+}
+
+.link-product:hover {
+  color: #2D4059;
+}
+
+@media screen and (min-width: 992px) {
   .filter1 {
     display: flex;
   }
 
   .filter2 {
     display: flex;
+    margin: 0 auto;
+  }
+
+  .filter3 {
+    margin: 0 auto;
   }
 
   .category {
     padding-right: 10%;
-  }
-
-  .img-frst-items {
-    width: 32% !important;
-  }
-
-  .card-first-items {
-    text-align: initial;
   }
 
   .card-first {
@@ -201,5 +219,25 @@ nav ul a:hover {
     background-color: #2d4059;
     border-radius: 5%;
     display: flex;
+  }
+  .card-title {
+    text-align: left;
+  }
+  .price-and-status {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-container {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img-frst-items {
+    width: 25% !important;
+  }
+
+  .card-first-items {
+    text-align: initial;
   }
 }
