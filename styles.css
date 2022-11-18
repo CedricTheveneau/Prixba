@@ -115,6 +115,12 @@ nav ul a svg {
   transition: 0.3s ease-in-out;
 }
 
+nav ul a svg:hover {
+  text-decoration: none;
+  fill: #000000;
+  transition: 0.3s ease-in-out;
+}
+
 
 /* Footer */
 
