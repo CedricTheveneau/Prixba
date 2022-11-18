@@ -47,6 +47,41 @@ label {
 
 .list-follow {
     background: #FCFCFC;
+    width: 55px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.container-button-describe input {
+    margin-right: 5%;
+    width: 100px;
+}
+
+.container-button-describe button {
+    font-weight: 400;
+    font-size: 15px;
+    color: #E5E5E5;
+    background: #EA5455;
+    border-radius: 7px;
+    padding: 11px 25px;
+    display: block;
+    margin-right: 5%;
+}
+
+.container-button-describe div {
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    .container-button-describe {
+        display: flex;
+    }
+    .container-button-describe div {
+        padding-top: 0;
+    }
 }
 
 @media screen and (min-width: 762px) {
