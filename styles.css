@@ -65,14 +65,14 @@ nav ul li a {
   transition: 0.3s ease-in-out;
 }
 
-.headerTwo .bubbledNumber:hover {
+/*.headerTwo .bubbledNumber:hover {
   background-color: #ea5455;
   color: #e5e5e5;
   width: 20px;
   height: 20px;
   font-size: 17px;
   transition: 0.3s ease-in-out;
-}
+}*/
 
 .headerTwo {
   height: fit-content;
@@ -98,6 +98,10 @@ nav .btn {
   color: #e5e5e5;
 }
 
+nav .btn:hover {
+  color: #ea5455;
+}
+
 nav ul a {
   text-decoration: none;
   color: #e5e5e5;
@@ -105,7 +109,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color: black;
+  color: #ea5455;
   transition: 0.3s ease-in-out;
 }
 
@@ -117,10 +121,9 @@ nav ul a svg {
 
 nav ul a svg:hover {
   text-decoration: none;
-  fill: #000000;
+  fill: #ea5455;
   transition: 0.3s ease-in-out;
 }
-
 
 /* Footer */
 
@@ -137,23 +140,8 @@ footer {
   background-color: #e5e5e5;
 }
 
-.bubbleFooterSVG:hover {
-  min-height: 95px;
-  min-width: 95px;
-  height: 95px;
-  width: 95px;
-  border-radius: 50%;
-  background-color: #ea5455;
-}
-
 .bubbleFooterSVG svg {
   fill: #ea5455;
-  transition: 0.3s ease-in-out;
-}
-
-.bubbleFooterSVG svg:hover {
-  fill: #e5e5e5;
-  transition: 0.3s ease-in-out;
 }
 
 .footerText {
@@ -181,7 +169,7 @@ footer {
 }
 
 .footerNavLinks a:hover {
-  color: black;
+  color: #ea5455;
   transition: 0.3s ease-in-out;
 }
 
@@ -211,19 +199,6 @@ footer {
     height: 24px;
     border-radius: 50%;
     font-weight: bold;
-    transition: 0.3s ease-in-out;
-  }
-
-  .bubbledNumber:hover {
-    background-color: #e5e5e5;
-    color: #ea5455;
-    min-width: 24px;
-    min-height: 24px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    font-weight: bold;
-    transition: 0.3s ease-in-out;
   }
 
   .headerTwo .bubbledNumber {
@@ -234,18 +209,6 @@ footer {
     width: 20px;
     height: 20px;
     font-size: 11px;
-    transition: 0.3s ease-in-out;
-  }
-
-  .headerTwo .bubbledNumber:hover {
-    background-color: #ea5455;
-    color: #e5e5e5;
-    min-width: 20px;
-    min-height: 20px;
-    width: 20px;
-    height: 20px;
-    font-size: 11px;
-    transition: 0.3s ease-in-out;
   }
 
   nav ul li a {
@@ -275,27 +238,10 @@ footer {
     width: 36px;
     border-radius: 50%;
     background-color: #e5e5e5;
-    transition: 0.3s ease-in-out;
   }
 
   .bubbleFooterSVG svg {
     fill: #ea5455;
-    transition: 0.3s ease-in-out;
-  }
-
-  .bubbleFooterSVG svg:hover {
-    fill: #e5e5e5;
-    transition: 0.3s ease-in-out;
-  }
-
-  .bubbleFooterSVG:hover {
-    min-height: 36px;
-    min-width: 36px;
-    height: 36px;
-    width: 36px;
-    border-radius: 50%;
-    background-color: #ea5455;
-    transition: 0.3s ease-in-out;
   }
 
   .legals {
@@ -308,9 +254,7 @@ footer {
   }
 
   .legals a:hover {
-    color: #000000;
+    color: #ea5455;
     transition: 0.3s ease-in-out;
   }
 }
-
-
