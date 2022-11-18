@@ -1,0 +1,17 @@
+.accordion-button {
+  background-color: #e5e5e5 !important;
+  color: #2d4059 !important;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ea5455 !important;
+  background-color: #e5e5e5 !important;
+  transition: 0.3s ease-in-out;
+}
+
+.accordion-body {
+  background-color: #e5e5e5 !important;
+  color: #2d4059 !important;
+}
