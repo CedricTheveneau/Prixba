@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+/* Général */
 h3 {
   color: #ea5455;
 }
@@ -62,19 +62,29 @@ nav ul a {
   color: #e5e5e5;
 }
 
-nav ul a:hover {
-=======
+/* nav ul a:hover { */
 /* Général */
 h3{
   color: #ea5455;
 }
-
+/* lien catégorie */
 .link{
->>>>>>> Stashed changes
   text-decoration: none;
-  color: black;
+  color: #2d4059;
 }
-
+/* cards avoir le choix chez prix marché */
+.cardo img{
+  height:50%;
+  width:100%;
+  object-fit: cover;
+}
+/* texte card prix marché */
+.card-text{
+  color: #ea5455;
+  text-align: center;
+  padding-top:4%;
+  font-weight:bold;
+}
 /*Page Listing Product*/
 .container-listing {
   margin-top: 5%;
@@ -206,9 +216,18 @@ h3{
     text-decoration: none;
     padding: 10px;
   }
-  .col-2 {
-    background-color: #2d4059;
-    border-radius: 5%;
-    display: flex;
-  }
 }
+  /* Etiquettes catégories */
+  .col-2 {
+    display: flex;
+    justify-content: center;
+    height:12em;
+ 
+  }
+  .svg-col{
+    height: 165px !important; 
+    width:165px !important;
+    background-color: #2d4059;
+    color:white;
+    border-radius: 15%;
+  }
