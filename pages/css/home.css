@@ -2,25 +2,118 @@
 .col-2 {
     display: flex;
     justify-content: center;
-    height:12em;
+    height: 12em;
 }
-.svg-col{
-    height: 165px !important; 
-    width:165px !important;
+
+.svg-col {
+    height: 165px !important;
+    width: 165px !important;
     background-color: #2d4059;
-    color:white;
+    color: white;
     border-radius: 15%;
 }
-/* cards avoir le choix chez prix marché */
-.cardo img{
 
-    width:100%;
+/* cards avoir le choix chez prix marché */
+.cardo img {
+    height: 50%;
+    width: 100%;
     object-fit: cover;
 }
+
 /* texte card prix marché */
-.card-text{
+.card-text {
     color: #ea5455;
     text-align: center;
-    padding-top:4%;
-    font-weight:bold;
+    padding-top: 4%;
+    font-weight: bold;
+}
+
+/*carousel*/
+img {
+    max-width: 100%;
+}
+
+.carousel-container {
+    width: 1100px;
+    margin: 50px auto;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        width: 95%;
+    }
+}
+
+.inner-carousel {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    padding: 2%;
+}
+
+.track {
+    display: inline-flex;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-container {
+    width: 275px;
+    height: 300px;
+    flex-shrink: 0;
+    padding: 15px;
+    box-shadow: 0px 0px 19px rgb(0 0 0 / 10%) !important;
+    border-radius: 6px !important;
+    border: 0 !important;
+    margin-right: 53px;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        width: 184px;
+    }
+}
+
+.card {
+    width: 100%;
+    height: 100% !important;
+    background-position: center bottom;
+    background-size: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 0 !important;
+}
+
+.nav button {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.nav .prev {
+    left: -30px;
+    display: none;
+    border: 0;
+    background: none;
+}
+
+.nav .prev.show {
+    display: block;
+}
+
+.nav .next {
+    right: -30px;
+    border: 0;
+    background: none;
+}
+
+.nav .next.hide {
+    display: none;
 }
