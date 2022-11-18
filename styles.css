@@ -1,3 +1,13 @@
+/* Général */
+h3 {
+  color: #ea5455;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
 /*Header*/
 header {
   height: fit-content;
@@ -108,154 +118,6 @@ nav ul a svg {
 nav ul a svg:hover {
   fill: black;
   transition: 0.3s ease-in-out;
-}
-
-/* Général */
-h3 {
-  color: #ea5455;
-}
-
-.link {
-  text-decoration: none;
-  color: black;
-}
-
-/*Page Listing Product*/
-.container-listing {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-.filter1 {
-  display: block;
-}
-
-.filter2 {
-  display: block;
-}
-
-.filter3 {
-  width: 100%;
-}
-
-.filter4 {
-  width: auto !important;
-  font-size: 20px;
-  background-color: #ea5455 !important;
-  color: white !important;
-  font-weight: 200 !important;
-  font-size: 16px !important;
-}
-
-.category {
-  padding-right: 0;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.icon-category {
-  font-size: 18px;
-  padding-right: 6%;
-}
-
-.title-category {
-  font-size: 25px;
-  font-weight: 500;
-  color: #000000;
-}
-
-.title-filter3 {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.card-container {
-  box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
-  border-radius: 6px !important;
-  transform: rotate(-0.33deg);
-  background: #fcfcfc;
-  border: 0 !important;
-  padding: 35px !important;
-  margin-bottom: 2rem;
-}
-
-.container-icon1 {
-  margin-right: 10px;
-}
-
-.container-icon2 {
-  padding-left: 20px;
-}
-
-.img-all-items {
-  padding: 35px;
-}
-
-.img-frst-items {
-  width: 100% !important;
-}
-
-.card-first-items {
-  text-align: center;
-}
-
-.form-check-input {
-  border: 5px solid #727272 !important;
-}
-
-.form-check-input:checked[type="radio"] {
-  background: #ea5455 !important;
-  border-color: transparent;
-  box-shadow: none;
-  border: none !important;
-}
-
-.form-check-input:focus {
-  border-color: transparent !important;
-  box-shadow: none !important;
-}
-
-.form-check .form-check-input:checked[type="radio"] + .form-check-label {
-  color: #ea5455 !important;
-}
-
-.text-success-stock {
-  color: #42cc58;
-}
-
-@media screen and (min-width: 768px) {
-  .filter1 {
-    display: flex;
-  }
-
-  .filter2 {
-    display: flex;
-  }
-
-  .category {
-    padding-right: 10%;
-  }
-
-  .img-frst-items {
-    width: 32% !important;
-  }
-
-  .card-first-items {
-    text-align: initial;
-  }
-
-  .card-first {
-    margin-bottom: 6%;
-  }
-
-  .link {
-    text-decoration: none;
-    padding: 10px;
-  }
-  .col-2 {
-    background-color: #2d4059;
-    border-radius: 5%;
-    display: flex;
-  }
 }
 
 /* Footer */
