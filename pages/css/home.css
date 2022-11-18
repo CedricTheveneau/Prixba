@@ -13,7 +13,7 @@
 }
 /* cards avoir le choix chez prix marché */
 .cardo img{
-
+    height:50%;
     width:100%;
     object-fit: cover;
 }
