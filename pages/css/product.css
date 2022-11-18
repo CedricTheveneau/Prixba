@@ -2,3 +2,49 @@ label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
 }
+
+.container-carousel {
+    margin-bottom: 15%;
+}
+
+.carousel-indicators button.thumbnail {
+    width: 100px !important;
+}
+
+.carousel-indicators button.thumbnail:not(.active) {
+    opacity: .7;
+}
+
+.carousel-indicators {
+    position: static !important;
+    justify-content: flex-start !important;
+    margin: 0 !important;
+}
+.carousel-inner {
+    padding: 20px;
+    box-shadow: 0px 0px 19px rgb(0 0 0 / 7%);
+}
+
+.carousel-item {
+    transition: 0s !important;
+    translate: none !important;
+    transform: none !important;
+}
+
+.container-product-details {
+    display: block;
+}
+
+.container-describe {
+    padding-top: 2%;
+}
+
+.list-follow {
+    background: #FCFCFC;
+}
+
+@media screen and (min-width: 762px) {
+    .container-product-details {
+        display: flex;
+    }
+}

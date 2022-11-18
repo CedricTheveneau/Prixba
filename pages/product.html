@@ -31,40 +31,48 @@
 
 <body>
     <main>
-        <section class="container d-flex">
-            <div class="container">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
+        <section class="container container-product-details">
+            <div class="container container-carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="../assets/bench-accounting-MGaFENpDCsw-unsplash.jpg" class="d-block w-100" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../assets/bench-accounting-MGaFENpDCsw-unsplash.jpg" class="d-block w-100" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../assets/bench-accounting-MGaFENpDCsw-unsplash.jpg" class="d-block w-100" alt="Third slide">
-                      </div>
+                        <div class="carousel-item active">
+                        <img src="../assets/img/bench-accounting-MGaFENpDCsw-unsplash.jpg" class="d-block w-100" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="../assets/img/christin-hume-Hcfwew744z4-unsplash.jpg" class="d-block w-100" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="../assets/img/christin-hume-mfB1B1s4sMc-unsplash.jpg" class="d-block w-100" alt="Third slide">
+                        </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="thumbnail active" aria-current="true" aria-label="Slide 1">
+                            <img src="../assets/img/bench-accounting-MGaFENpDCsw-unsplash.jpg" class="d-block w-100" alt="First slide">
+                        </button>
+                        <button class="thumbnail" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                            <img src="../assets/img/christin-hume-Hcfwew744z4-unsplash.jpg" class="d-block w-100" alt="First slide">
+                        </button>
+                        <button class="thumbnail" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                            <img src="../assets/img/christin-hume-mfB1B1s4sMc-unsplash.jpg" class="d-block w-100" alt="First slide">
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="container">
+            <div class="container container-describe">
                 <h3>Marteau</h3>
                 <h3>1 €</h3>
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
-                <input type="number" id="" name="">
+                <div class="d-flex align-items-center">
+                    <input type="number" value="1" min="1"/>
+                    <button type="button" class="btn btn-danger">Ajouter au panier</button>
+                    <div class="list-follow">
+                        <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.5173 4.67059C23.14 3.79047 22.5985 2.99404 21.9233 2.3259C21.2475 1.65575 20.4522 1.12466 19.5807 0.761513C18.677 0.383433 17.7089 0.192783 16.7327 0.20063C15.3631 0.208414 14.0291 0.599759 12.872 1.33122C12.5952 1.5062 12.3323 1.69815 12.0835 1.90709C11.8323 1.701 11.5673 1.51204 11.2885 1.34022C10.1231 0.621956 8.78472 0.245798 7.41514 0.253582C6.42893 0.259186 5.47438 0.457914 4.5737 0.846797C3.70349 1.22129 2.92032 1.75733 2.2491 2.4377C1.58062 3.11273 1.04811 3.91544 0.681766 4.80036C0.300834 5.72072 0.109134 6.69685 0.114836 7.70029C0.120216 8.64688 0.314729 9.63219 0.695468 10.6335C1.01415 11.4703 1.46914 12.3376 2.04919 13.2127C2.96829 14.5975 4.22943 16.0401 5.79349 17.5009C8.38537 19.9224 10.948 21.5907 11.0567 21.6583L11.7175 22.0866C12.0103 22.2754 12.3854 22.2733 12.676 22.0812L13.3319 21.6454C13.4399 21.5737 15.9806 19.8792 18.5475 17.4284C20.0949 15.95 21.3395 14.4931 22.2428 13.0979C22.8129 12.2163 23.2608 11.3439 23.5672 10.5035C23.9365 9.49795 24.1198 8.51049 24.1144 7.5639C24.1115 6.56045 23.9087 5.58656 23.5173 4.67059ZM12.1854 19.8354C12.1854 19.8354 2.25866 13.4076 2.22615 7.68829C2.20969 4.79168 4.53825 2.43038 7.42742 2.41396C9.45818 2.40242 11.2261 3.55219 12.1024 5.24146C12.9596 3.54234 14.7142 2.37255 16.745 2.36101C19.6342 2.34459 21.9894 4.67927 22.0059 7.57589C22.0384 13.2952 12.1854 19.8354 12.1854 19.8354Z" fill="#2D4059"/>
+                        </svg>
+                    </div>
+                </div>
+
+                    
             </div>
         </section>
     </main>
