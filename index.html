@@ -30,21 +30,105 @@
 </head>
 
 <body>
+    <header>
+        <div class="container-fluid">
+            <div class="row" style="background-color: e5e5e5;">
+                <div class="col-12 d-flex align-items-center justify-content-between px-5 py-2">
+                    <div class="logo d-flex align-items-center justify-content-between">
+                        <img src="../assets/logos/logo_color.png" alt="Logo Prixba">
+                        <p class="m-0 mx-2">PrixBa</p>
+                    </div>
+                    <div class="slogan d-flex flex-column text-end">
+                        <p class="m-0"><strong>Tous vos besoins à petits prix dans la métropole Lilloise</strong></p>
+                        <div class="d-none d-lg-flex justify-content-around py-2">
+                            <div class="sentence d-flex justify-content-around">
+                                <p class="m-0">
+                                <div class="bubbledNumber d-flex align-items-center justify-content-around">1</div>
+                                <strong class="d-flex align-items-center mx-3">Choix et commande des articles</strong>
+                                </p>
+                            </div>
+                            <div class="sentence d-flex justify-content-around">
+                                <p class="m-0">
+                                <div class="bubbledNumber d-flex align-items-center justify-content-around">2</div>
+                                <strong class="d-flex align-items-center mx-3">Retrait des articles</strong></p>
+                            </div>
+                            <div class="sentence d-flex justify-content-around">
+                                <p class="m-0">
+                                <div class="bubbledNumber d-flex align-items-center justify-content-around">3</div>
+                                <strong class="d-flex align-items-center mx-3">Paiement des articles</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row headerTwo">
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-center px-5 py-4">
+                        <div class="navigation d-none d-lg-flex py-2">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Catégories
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Bricolage</a>
+                                    <a class="dropdown-item" href="#">Multimédia</a>
+                                    <a class="dropdown-item" href="#">Cuisine</a>
+                                </div>
+                            </div>
+                            <form class="d-flex px-2 form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Rechercher..."
+                                    aria-label="Search">
+                                <button class="mx-2 btn btn-danger my-2 my-sm-0" type="submit">Rechercher</button>
+                            </form>
+                        </div>
+                        <nav>
+                            <ul class="d-flex align-items-center justify-content-around p-0 mb-0 flex-wrap">
+                                <li class="mx-3 pt-3 pt-sm-0"><a href="#">Catalogue</a></li>
+                                <li class="mx-3 pt-3 pt-sm-0"><a href="#">Questions fréquentes</a></li>
+                                <li class="mx-1 pt-3 pt-sm-0">
+                                    <div class="dropdown">
+                                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Connexion
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item" href="#">blabla</a>
+                                            <a class="dropdown-item" href="#">blabla</a>
+                                            <a class="dropdown-item" href="#">blabla</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mx-3 pt-3 pt-sm-0"><a class="d-flex" href="#"><i
+                                            class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>
+                                        <div
+                                            class="bubbledNumber d-flex align-items-center justify-content-around mx-1">
+                                            2
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
 <main>
         <section class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 d-flex pb-4 ">
                         <h3 class="mb-3"> Meilleures ventes </h3>
                     </div>
-                    <div class="col-6 text-right">
+                    <!-- <div class="col-2 text-right">
                         <a class="btn btn-danger mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                             <i class="fa fa-arrow-left"></i>
                         </a>
                         <a class="btn btn-danger mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
                             <i class="fa fa-arrow-right"></i>
                         </a>
-                    </div>
+                    </div> -->
                     <div class="col-12">
                         <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
         
@@ -57,7 +141,7 @@
                                                 <div class="card-body">
                                                     <h4 class="card-title">Marteau</h4>
                                                     <div style="display: flex; justify-content: space-between;">
-                                                        <p class="card-text">1€</p>
+                                                        <p class="card-texto">1€</p>
                                                         <p class="green" style="color:rgb(152, 224, 43);">En stock </p>
                                                       </div>
         
@@ -71,7 +155,7 @@
                                                 <div class="card-body">
                                                     <h4 class="card-title">Marteau</h4>
                                                     <div style="display: flex; justify-content: space-between;">
-                                                        <p class="card-text">1€</p>
+                                                        <p class="card-texto">1€</p>
                                                         <p class="green" style="color:rgb(152, 224, 43);">En stock </p>
                                                       </div>
         
@@ -84,7 +168,7 @@
                                                 <div class="card-body">
                                                     <h4 class="card-title">Marteau</h4>
                                                     <div style="display: flex; justify-content: space-between;">
-                                                        <p class="card-text">1€</p>
+                                                        <p class="card-texto">1€</p>
                                                         <p class="green" style="color:rgb(152, 224, 43);">En stock </p>
                                                       </div>
         
@@ -97,7 +181,7 @@
                                                 <div class="card-body">
                                                     <h4 class="card-title">Marteau</h4>
                                                     <div style="display: flex; justify-content: space-between;">
-                                                        <p class="card-text">1€</p>
+                                                        <p class="card-texto">1€</p>
                                                         <p class="green" style="color:rgb(152, 224, 43);">En stock </p>
                                                       </div>
         
@@ -116,7 +200,7 @@
                                                 <div class="card-body">
                                                     <h4 class="card-title">Marteau</h4>
                                                     <div style="display: flex; justify-content: space-between;">
-                                                        <p class="card-text">1€</p>
+                                                        <p class="card-texto">1€</p>
                                                         <p class="green" style="color:rgb(152, 224, 43);">En stock </p>
                                                       </div>
         
@@ -129,33 +213,107 @@
 
         <section class="pt-5 pb-5">
             <div class="container">
-                <div class="row">
+
                     
-                    <div class="col-6" style="display: flex;">
+                    <div class="col-6 d-flex pb-4">
                     <h3 class="mb-3"> Découvrez nos offres par catégories </h3>
                     <a class="link" href="#"> voir tout </a>
                     </div>
-                </div>
-            </div>
+                    <div class="row gap-2 mx-auto">
             
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
-            <div class="col-2"><i class="fa-solid fa-xl fa-cart-shopping d-flex align-items-center"></i>Bricolage</div>
+            <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col">
+                <svg class="pb-2" width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E"><path d="M59.9172 47.8429L45.9659 33.8916C43.2137 31.1394 39.1034 30.6033 35.7912 32.2355L23.0909 19.5351V12.1365L7.84086 0.698975L0.215857 8.32397L11.6534 23.574H19.052L31.7524 36.2744C30.1321 39.5865 30.6563 43.6968 33.4084 46.449L47.3598 60.4003C49.0993 62.1398 51.911 62.1398 53.6385 60.4003L59.9172 54.1216C61.6448 52.3822 61.6448 49.5705 59.9172 47.8429ZM39.7348 27.5056C43.1065 27.5056 46.2756 28.8162 48.6584 31.199L50.9698 33.5103C52.8522 32.6882 54.6393 31.5445 56.1881 29.9957C60.6082 25.5755 62.1094 19.3564 60.7036 13.7091C60.4414 12.6369 59.0952 12.2675 58.3088 13.0539L49.4448 21.9179L41.3551 20.5716L40.0088 12.482L48.8729 3.61792C49.6592 2.83159 49.278 1.4853 48.1938 1.21128C42.5465 -0.182666 36.3274 1.31851 31.9192 5.72671C28.5237 9.12222 26.9272 13.6019 27.0106 18.0697L36.792 27.8511C37.7571 27.6248 38.7579 27.5056 39.7348 27.5056ZM27.3561 37.2751L20.6008 30.5199L2.44379 48.6888C-0.534729 51.6673 -0.534729 56.4925 2.44379 59.471C5.4223 62.4496 10.2475 62.4496 13.226 59.471L27.9518 44.7453C27.0463 42.3744 26.7723 39.789 27.3561 37.2751ZM7.84086 56.9333C6.2682 56.9333 4.98148 55.6466 4.98148 54.074C4.98148 52.4894 6.25629 51.2146 7.84086 51.2146C9.42543 51.2146 10.7002 52.4894 10.7002 54.074C10.7002 55.6466 9.42543 56.9333 7.84086 56.9333Z" fill="#E5E5E5"/>
+                </svg> 
+                 
+                <p class="m-0 pt-2">Bricolage</p></div>
+            <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                </svg> 
+                <p class="m-0 pt-2">Multimédia</p></div>
+            <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col">
+                <svg width="50" height="62" viewBox="0 0 50 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                <path d="M24.7036 2.50965C24.7978 3.06962 26.5999 13.7684 26.5999 17.855C26.5999 24.086 23.3254 28.53 18.4843 30.3171L20.0038 58.6845C20.0862 60.3167 18.8024 61.6987 17.1769 61.6987H9.63841C8.02471 61.6987 6.72903 60.3286 6.81149 58.6845L8.33096 30.3171C3.47807 28.53 0.215332 24.0741 0.215332 17.855C0.215332 13.7565 2.0175 3.06962 2.11173 2.50965C2.48865 0.0911006 7.44754 0.0553581 7.75379 2.64071V19.4634C7.90692 19.8684 9.5324 19.8446 9.63841 19.4634C9.80331 16.4491 10.5689 2.87899 10.5807 2.56923C10.9694 0.0911006 15.8459 0.0911006 16.2228 2.56923C16.2463 2.89091 17.0002 16.4491 17.1651 19.4634C17.2711 19.8446 18.9084 19.8684 19.0497 19.4634V2.64071C19.356 0.0672722 24.3266 0.0911006 24.7036 2.50965ZM38.7439 36.5481L36.9771 58.6011C36.8358 60.269 38.1432 61.6987 39.7923 61.6987H46.3884C47.955 61.6987 49.2153 60.4239 49.2153 58.8393V3.55809C49.2153 1.98544 47.955 0.698718 46.3884 0.698718C36.6709 0.698718 20.31 21.9653 38.7439 36.5481Z" fill="#E5E5E5"/>
+                </svg> 
+                <p class="m-0 pt-2">Cuisine</p></div>
+                <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                    <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                    </svg> 
+                    <p class="m-0 pt-2">Multimédia</p></div>
+                    <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                        <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                        </svg> 
+                        <p class="m-0 pt-2">Multimédia</p></div>
+                        <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                            <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                            </svg> 
+                            <p class="m-0 pt-2">Multimédia</p></div>
+                    </div>
+                    <div class="row gap-2 pt-2 mx-auto">
+                            <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                                <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                                </svg> 
+                                <p class="m-0 pt-2">Multimédia</p></div>
+                                <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                                    <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                                    </svg> 
+                                    <p class="m-0 pt-2">Multimédia</p></div>
+                                    <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                                        <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                                        </svg> 
+                                        <p class="m-0 pt-2">Multimédia</p></div>
+                                        <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                                            <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                                            </svg> 
+                                            <p class="m-0 pt-2">Multimédia</p></div>
+                                            <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                                                <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                                                </svg> 
+                                                <p class="m-0 pt-2">Multimédia</p></div>
+                                                <div class="col-6 col-md-2 d-flex flex-column align-items-center justify-content-center svg-col d-flex flex-column align-items-center justify-content-center svg-col"><svg width="43" height="62" viewBox="0 0 43 62" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                                                    <path d="M21.2153 10.2302C14.8986 10.2302 9.76079 15.3604 9.76079 21.6677C9.76079 22.7209 10.6151 23.574 11.6699 23.574C12.7247 23.574 13.579 22.7209 13.579 21.6677C13.579 17.4621 17.0058 14.0427 21.2153 14.0427C22.2701 14.0427 23.1244 13.1897 23.1244 12.1365C23.1244 11.0833 22.2701 10.2302 21.2153 10.2302ZM11.677 55.4048C11.677 55.7801 11.788 56.1458 11.9968 56.458L14.9213 60.8471C15.2757 61.3785 15.8723 61.6978 16.5106 61.6978H25.9189C26.5584 61.6978 27.155 61.3785 27.5082 60.8471L30.4327 56.458C30.6403 56.1458 30.7512 55.7789 30.7524 55.4048L30.7584 50.2603H11.6723L11.677 55.4048ZM21.2153 0.698975C9.01147 0.698975 0.215332 10.5841 0.215332 21.6677C0.215332 26.954 2.17812 31.7768 5.41283 35.4618C7.39829 37.7243 10.5125 42.4673 11.6675 46.4418V46.449H17.3948V46.4347C17.3936 45.8664 17.3089 45.3017 17.1382 44.7584C16.4712 42.6365 14.4154 37.0416 9.72022 31.6922C7.26942 28.9008 5.95931 25.3599 5.94857 21.6677C5.92471 12.8942 13.0683 6.41773 21.2153 6.41773C29.6368 6.41773 36.4881 13.2588 36.4881 21.6677C36.4881 25.3575 35.1469 28.9174 32.7116 31.6922C28.0451 37.0071 25.9797 42.59 25.302 44.7334C25.1271 45.2844 25.0377 45.859 25.0371 46.4371V46.449H30.7644V46.443C31.9194 42.4673 35.0336 37.7243 37.019 35.463C40.2525 31.7768 42.2153 26.954 42.2153 21.6677C42.2153 10.0873 32.8131 0.698975 21.2153 0.698975Z" fill="#E5E5E5"/>
+                                                    </svg> 
+                                                    <p class="m-0 pt-2">Multimédia</p></div>
+                                                </div>
+                                                    
+
+        </div>
+    </div>
         </section>
 
 
 
+        <section class="pt-5 pb-5">
+            <div class="container">
+                <div class="row" style=" display:flex;">
+                    
+                    <div style="display: flex;">
+                    <h3 class="mb-3" style="padding-bottom:2%;"> Avoir le choix chez Prix Marché </h3>
+                    </div>
+                    <div class="cardo" style="width: 18rem;">
+                        <img src="assets/img/victoria-kubiaki-t0Aio60jD4Q-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text"> Je choisi </p>
+                        </div>
+                    </div>
+                    <div class="cardo" style="width: 18rem;">
+                        <img src="assets/img/wynand-van-poortvliet-kWUZKKBR2Ag-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text"> Je choisi </p>
+                        </div>
+                    </div>
+                        <div class="cardo" style="width: 18rem;">
+                            <img src="assets/img/rosebox-BFdSCxmqvYc-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text"> Je choisi </p>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            
 
-    <section></section>
+        </section>
+
 </main>
     <!-- Bootstrap Back-up JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

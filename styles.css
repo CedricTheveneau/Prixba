@@ -114,6 +114,36 @@ nav ul a svg {
   fill: #e5e5e5;
   transition: 0.3s ease-in-out;
 }
+/* Général */
+h3{
+  color: #ea5455;
+}
+/* lien catégorie */
+.link{
+  text-decoration: none;
+  color: #2d4059;
+}
+/* cards avoir le choix chez prix marché */
+.cardo img{
+  height:50%;
+  width:100%;
+  object-fit: cover;
+}
+/* texte card prix marché */
+.card-text{
+  color: #ea5455;
+  text-align: center;
+  padding-top:4%;
+  font-weight:bold;
+}
+/*Page Listing Product*/
+.container-listing {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.filter1 {
+  display: block;
+}
 
 nav ul a svg:hover {
   fill: black;
@@ -310,3 +340,18 @@ footer {
     transition: 0.3s ease-in-out;
   }
 }
+
+  /* Etiquettes catégories */
+  .col-2 {
+    display: flex;
+    justify-content: center;
+    height:12em;
+ 
+  }
+  .svg-col{
+    height: 165px !important; 
+    width:165px !important;
+    background-color: #2d4059;
+    color:white;
+    border-radius: 15%;
+  }
